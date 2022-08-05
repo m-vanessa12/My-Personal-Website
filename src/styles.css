@@ -1,0 +1,376 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  color: black;
+  font-family: inter;
+}
+
+.heading {
+  background-image: url("https://images.unsplash.com/flagged/1/apple-gear-looking-pretty.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.gradient {
+  width: 100%;
+  height: 100vh;
+  background: #000;
+  opacity: 0.9;
+}
+
+.menu-bar {
+  border-bottom: 1px solid rgb(201, 196, 196);
+  height: 5rem;
+}
+
+.menu-bar h1 {
+  color: #fff;
+  padding-top: 25px;
+  padding-left: 30px;
+  color: rgb(201, 196, 196);
+}
+
+.menu-bar ul {
+  display: block;
+  float: right;
+  margin-right: 10%;
+  margin-top: -20px;
+}
+
+.menu-bar ul li {
+  display: inline;
+  text-transform: capitalize;
+}
+
+.menu-bar ul li a {
+  margin-left: 80px;
+  text-decoration: none;
+  color: rgb(201, 196, 196);
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.summary {
+  width: 70%;
+  height: 20rem;
+  margin-left: 15%;
+  margin-top: 6rem;
+  color: rgb(201, 196, 196);
+}
+
+.summary p {
+  text-align: center;
+  padding-top: 3rem;
+  font-size: 20px;
+  font-weight: 400;
+}
+.summary h1 {
+  text-align: center;
+  font-size: 42px;
+  text-transform: capitalize;
+  padding-top: 20px;
+  padding-right: 20px;
+  line-height: 3.5rem;
+  letter-spacing: 1px;
+}
+
+.summary a {
+  background-color: #f08080;
+  padding: 13px;
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.about-me {
+  text-align: center;
+  width: 50%;
+  height: auto;
+  padding: 3.2rem;
+  margin-left: 20%;
+}
+
+.about-me img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  object-fit: cover;
+  border: 4px solid #ccc;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.about-me h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 22px;
+}
+
+.about-me svg {
+  width: 20%;
+  height: 5%;
+}
+
+.about-me p {
+  font-size: 22px;
+  line-height: 35px;
+  margin-top: 22px;
+}
+
+.my-services {
+  background-color: #f08080;
+  color: #fff;
+  width: 100%;
+  height: 21rem;
+}
+
+.my-services h1 {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 20px;
+}
+
+.cards {
+  width: 30%;
+  padding: 1rem;
+  height: auto;
+  float: left;
+  margin-left: 0.3rem;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.cards h2 {
+  margin-top: 20px;
+}
+
+.cards p {
+  padding: 20px;
+  line-height: 25px;
+  font-size: 24px;
+}
+
+.experiences {
+  background: #efeeee;
+  width: 100%;
+  height: 500px;
+}
+
+.experiences h1 {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 36px;
+  position: relative;
+}
+.experiences svg {
+  width: 12%;
+  height: 5%;
+  margin-left: 45%;
+}
+
+.experience-cards {
+  width: 25%;
+  padding: 2rem;
+  height: auto;
+  float: left;
+  margin-left: 2rem;
+  text-align: center;
+  margin-top: 20px;
+  background: #fff;
+  box-shadow: 0px 0px 5px 0px grey;
+}
+
+.experience-cards h2 {
+  line-height: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.experience-cards p {
+  padding-top: 10px;
+  line-height: 20px;
+}
+
+.my-projects {
+  width: 100%;
+  height: 420px;
+  background: #fff;
+}
+
+.my-projects h2 {
+  font-size: 30px;
+  margin-left: 10%;
+  padding-top: 30px;
+}
+
+.logo {
+  width: 30%;
+  float: left;
+  margin-left: 10%;
+  margin-top: 30px;
+}
+
+.logo img {
+  width: 350px;
+  height: 300px;
+}
+
+.company-info {
+  width: 40%;
+  height: 250px;
+  float: left;
+  margin-top: 50px;
+  background: #fff;
+  border-radius: 20px;
+}
+
+.company-info h2 {
+  color: #f08080;
+  font-size: 28px;
+  padding-top: 20px;
+}
+
+.company-info h1 {
+  font-size: 32px;
+}
+
+.company-info h3 {
+  color: #f08080;
+  font-size: 28px;
+  padding-top: 20px;
+}
+
+.company-info p {
+  margin-top: 10px;
+  font-size: 24px;
+  line-height: 35px;
+}
+
+.company-info a {
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+
+.other-projects {
+  width: 100%;
+  height: 470px;
+  margin-left: 20px;
+}
+
+.line1 img {
+  width: 300px;
+  height: 200px;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+
+.line2 img {
+  width: 300px;
+  height: 200px;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.form {
+  width: 100%;
+  height: 27rem;
+  background: #d9d9d9;
+}
+
+.form h1 {
+  text-align: center;
+  font-size: 40px;
+  text-transform: capitalize;
+  padding: 2rem;
+}
+
+.form form {
+  padding: 1rem;
+  width: 70%;
+  margin-left: 17%;
+}
+
+.form form input {
+  width: 40%;
+  height: 2.7rem;
+  margin-top: 3px;
+  text-align: center;
+  margin-left: 10px;
+  font-size: 16px;
+  border: none;
+}
+
+.form textarea {
+  width: 79%;
+  height: 7rem;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  border: none;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.form button {
+  background: #f08080;
+  padding: 10px;
+  border: none;
+  width: 20%;
+  height: 2.5rem;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: 35%;
+  cursor: pointer;
+}
+
+.address {
+  background-image: url("https://images.unsplash.com/photo-1484807352052-23338990c6c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  width: 100%;
+  height: 200px;
+}
+
+.container {
+  background: #000;
+  opacity: 0.8;
+  width: 100%;
+  height: 8.9rem;
+  padding: 30px;
+}
+
+.info {
+  background-color: green;
+  width: 27%;
+  height: 5rem;
+  float: left;
+  text-align: center;
+  padding: 25px;
+  font-size: 20px;
+  margin-top: 15px;
+  color: #fff;
+}
+
+#phone {
+  background: #f08080;
+}
+
+#email {
+  background: #504d4d;
+}
+
+.info i {
+  font-size: 20px;
+  margin-left: 30px;
+  padding: 10px;
+  color: #fff;
+}
